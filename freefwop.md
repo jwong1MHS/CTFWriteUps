@@ -47,15 +47,17 @@ Link: https://ctf.fweefwop.club/challenges
 | Alice in Wonderland? (100)          | fwopCTF{Beneath_the_surface}       | `strings garden.jpg`                                                 |
 | Just inflate me (100)               | fwopCTF{ok_you_found_me}           | `gunzip flag.txt.gz`                                                 |
 | Not Viewable (100)                  | fwopCTF{actually_an_image}         | change `fflag.txt` to .png or .jpg                                   |
-| The Meta Joke (100)                 | fwopCTF{metadata_is_funky}         | `file MyCoolCard.jpg`                                                |
+| The Meta Joke (100)                 | fwopCTF{metadata_is_funky}         | [Metadata Viewer](http://exif.regex.info/exif.cgi) `file MyCoolCard.jpg` |                                               |
 | Not the same (150)                  | fwopCTF{r3sp3ct_th3_d1ff}          | `diff t1.txt t2.txt`                                                 |
 | Reading between the Eyes (150)      | fwopCTF{r34d1ng_b37w33n_7h3_by73s} | [Steganography Online](https://stylesuxx.github.io/steganography/)   |
 | Sharper Image (150)                 | fwopCTF{this_is_a_boring_flag}     | `base64 -d bb.txt  > bb.png`                                         |
 | Bitcoin Laundering (0) (200)        | fwopCTF{20000}                     | <code>cat transactions.json &#124; grep -o -i { &#124; wc -l</code>  |
-| Follow the Shiba (200)              | fwopCTF{steg_is_fun}               | Check LSB of first file, grab imgur img, LSB                         |
+| Follow the Shiba (200)              | fwopCTF{steg_is_fun}               | [Steganography Online](https://stylesuxx.github.io/steganography/) Check LSB of first file, grab imgur link, LSB |
 | Pranked (200)                       | fwopCTF{easilypranked}             | Inspect element, https://tinyurl.com/easilypranked                   |
 | What is in this Cookie? (200)       |                                    |                                                                      |
 | What's inside of this apple? (200)  |                                    |                                                                      |
+| Wood Door (250)                     | fwopCTF{hiding_in_bit_plane}       | [StegOnline](https://stegonline.georgeom.net/) Blue 2                |
+| Apples & Oranges (250)              | fwopCTF{which_is_your_favorite}    | [Steganographic Decoder](https://futureboy.us/stegano/decinput.html) or `steghide extract -sf Apple.jpg` |
 | Corrupted_File (300)                | fwopCTF{C0rrupted}                 | Make sure the first 18 and last 12 bytes of a PNG match w. Hexedit `89 50 4E 47 0D 0A 1A 0A 00 00 00 0D` |
 
 ## 03 Linux Lab
@@ -74,13 +76,17 @@ Link: https://ctf.fweefwop.club/challenges
 | Linux Lab Level 11 (100)          | fwopCTF{level_11_87h}              | `cat readme` --> `find / -name level11_flag.txt 2> /dev/null`      |
 
 ## 04 Crypto
-|             Challenge             |                    Flag                    |                               Method                               |
-| --------------------------------- | ------------------------------------------ | ------------------------------------------------------------------ |
-| Caesar (100)                      | fwopCTF{Brutus_says_Ceaser_sucks}          | [Ceasar cipher](https://www.dcode.fr/caesar-cipher) shift 16       |
-| FlipFwop (100)                    | fwopCTF{earth_fire_water_air}              | [Flip](http://flipapicture.com/) flip horizontally                 |
-| Oink (100)                        | fwopCTF{welovepigs}                        | [Pigpen cipher](https://en.wikipedia.org/wiki/Pigpen_cipher)       |
-| Simple MD5 (100)                  | fwopCTF{7ca2197c58b026825c382e32621b1ce4}  | [MD5](https://gchq.github.io/CyberChef/#recipe=MD5())              |
-| Some Ciphers (100)                | fwopCTF{multi_cipher_shenanigans}          | [ROT13](https://rot13.com/), [Ceasar cipher](https://www.dcode.fr/caesar-cipher) shift 3 |
+|             Challenge             |                       Flag                       |                               Method                               |
+| --------------------------------- | ------------------------------------------------ | ------------------------------------------------------------------ |
+| Caesar (100)                      | fwopCTF{Brutus_says_Ceaser_sucks}                | [Ceasar cipher](https://www.dcode.fr/caesar-cipher) shift 16       |
+| FlipFwop (100)                    | fwopCTF{earth_fire_water_air}                    | [Flip](http://flipapicture.com/) flip horizontally                 |
+| Oink (100)                        | fwopCTF{welovepigs}                              | [Pigpen cipher](https://en.wikipedia.org/wiki/Pigpen_cipher)       |
+| Simple MD5 (100)                  | fwopCTF{7ca2197c58b026825c382e32621b1ce4}        | [MD5](https://gchq.github.io/CyberChef/#recipe=MD5())              |
+| Some Ciphers (100)                | fwopCTF{multi_cipher_shenanigans}                | [ROT13](https://rot13.com/), [Caesar cipher](https://www.dcode.fr/caesar-cipher) shift 3 |
+| More than 64 (125)                | fwopCTF{other_bases_would_work_too_not_just_64}  | [Cipher Identifier](https://www.dcode.fr/cipher-identifier), [Base85](https://gchq.github.io/CyberChef/#recipe=From_Base85('!-u')) |
+| ROT More (150)                    | fwopCTF{r0t47_t_is}                              | [Base85](https://gchq.github.io/CyberChef/#recipe=ROT47(47))       |
+| Samuel Morse (150)                | fwopCTF{MORSE_CODE_EASY}                         | [Morse Code](https://gchq.github.io/CyberChef/#recipe=From_Morse_Code('Space','Line%20feed')) |
+
 
 ## 05 Web
 |             Challenge             |                      Flag                      |                               Method                               |
@@ -89,7 +95,10 @@ Link: https://ctf.fweefwop.club/challenges
 | Marq-weeeeeee! (100)              | fwopCTF{t3f0n00}                               | [Link](https://web.fweefwop.club/weee.html) Look for fwopCTF in page source |
 | No Inspector (100)                | fwopCTF{funky_0n_4_fr1day_n1ght}               | [Link](https://web.fweefwop.club/no_inspector.html) View JS script      |
 | Robot Invasion (100)              | fwopCTF{k1ller_r0bots_wilL_rUl3_th3_W0rld!!1}  | [Link](https://web.fweefwop.club/robot_invasion.html) Check robots.txt to find secret directory |
-| Wacky CSS (100)                   | fwopCTF{fwopCTF{Take_my_hand_to_your_fantasy}} | [Link](https://web.fweefwop.club/wacky_css.html) View CSS file     |
+| Wacky CSS (100)                   | fwopCTF{Take_my_hand_to_your_fantasy}          | [Link](https://web.fweefwop.club/wacky_css.html) View CSS file     |
+| Complete me (200)                 | fwopCTF{where}                                 | SQL Select From Where                                              |
+| Cookies (250)                     |                                                |                                                                    |
+| 53Cr37 8r0W53r (400)              | fwopCTF{secret_browser_007}                    | [Link](https://web.fweefwop.club/cookie.php) Inspect -> More tools -> Network conditions -> User agent A3SECRET |
 
 ## 06 Reverse
 |             Challenge             |                Flag                |                               Method                               |
