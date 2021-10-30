@@ -40,3 +40,29 @@ Link: https://ctf.fweefwop.club/challenges
 | Go through some gates (300)       | fwopCTF{1}                     | [Digital Logic](https://www.circuitbasics.com/what-is-digital-logic/) |
 | Assembly: Jump (400)              | fwopCTF{fwop}                  | Line 33 from 0x0? to 0x0d                                      |
 | Modular (4) (400)                 | fwopCTF{278505}                | `pow(31, pow(31, 2813771283, totient(384302), 384302)`         |
+
+## 02 Forensics
+|             Challenge             |                Flag                |                               Method                               |
+| --------------------------------- | ---------------------------------- | ------------------------------------------------------------------ |
+| Alice in Wonderland? (100)        | fwopCTF{Beneath_the_surface}       | `strings garden.jpg`                                               |
+| Just inflate me (100)             | fwopCTF{ok_you_found_me}           | `gunzip flag.txt.gz`                                               |
+| Not Viewable (100)                | fwopCTF{actually_an_image}         | change `fflag.txt` to `fflag.png` or `fflag.jpg`                   |
+| The Meta Joke (100)               | fwopCTF{metadata_is_funky}         | `file MyCoolCard.jpg`                                              |
+| Not the same (150)                | fwopCTF{r3sp3ct_th3_d1ff}          | `diff t1.txt t2.txt`                                               |
+| Reading between the Eyes (150)    | fwopCTF{r34d1ng_b37w33n_7h3_by73s} | [Steganography Online](https://stylesuxx.github.io/steganography/) |
+| Sharper Image (150)               | fwopCTF{this_is_a_boring_flag}     | `base64 -d bb.txt  > bb.png`                                       |
+| Bitcoin Laundering (0) (200)      | fwopCTF{20000}                     | `cat transactions.json | grep -o -i { | wc -l`                     |
+
+## 03 Linux Lab
+|             Challenge             |                Flag                |                               Method                               |
+| --------------------------------- | ---------------------------------- | ------------------------------------------------------------------ |
+| Linux Lab Level 1 (100)           | fwopCTF{level_1_u3xe4}             | `ssh level0@linux.fweefwop.club`, Password: fwopCTF{level_0}, `ls` |
+| Linux Lab Level 2 (100)           | fwopCTF{level_2_l46h3}             | `cd subdir`, `ls`                                                  |
+| Linux Lab Level 3 (100)           | fwopCTF{level_3_ti8fx}             | `cat flag.txt`                                                     |
+| Linux Lab Level 4 (100)           | fwopCTF{level_4_nmc4e}             | `env`                                                              |
+| Linux Lab Level 5 (100)           | fwopCTF{level_5_4gw}               | A lot of `ls` and `cd` and autocomplete with <kbd>Tab</kbd>        |
+| Linux Lab Level 6 (100)           | fwopCTF{level_6_3bw}               | `cat flag.txt | grep -i fwopCTF{`                                  |
+| Linux Lab Level 7 (100)           | fwopCTF{level_7_82j}               | `cat .flag.txt`                                                    |
+| Linux Lab Level 8 (100)           | fwopCTF{level_8_2b3}               | `cat flag.png`                                                     |
+| Linux Lab Level 9 (100)           | fwopCTF{level_9_c2p}               | `diff f1.txt f2.txt`                                               |
+| Linux Lab Level 10 (100)          | fwopCTF{level_10_fqd}              | `cat ./-cant_touch_this`                                           |
