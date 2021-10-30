@@ -42,16 +42,21 @@ Link: https://ctf.fweefwop.club/challenges
 | Modular (4) (400)                 | fwopCTF{278505}                | `pow(31, pow(31, 2813771283, totient(384302), 384302)`         |
 
 ## 02 Forensics
-|             Challenge             |                Flag                |                               Method                               |
-| --------------------------------- | ---------------------------------- | ------------------------------------------------------------------ |
-| Alice in Wonderland? (100)        | fwopCTF{Beneath_the_surface}       | `strings garden.jpg`                                               |
-| Just inflate me (100)             | fwopCTF{ok_you_found_me}           | `gunzip flag.txt.gz`                                               |
-| Not Viewable (100)                | fwopCTF{actually_an_image}         | change `fflag.txt` to `fflag.png` or `fflag.jpg`                   |
-| The Meta Joke (100)               | fwopCTF{metadata_is_funky}         | `file MyCoolCard.jpg`                                              |
-| Not the same (150)                | fwopCTF{r3sp3ct_th3_d1ff}          | `diff t1.txt t2.txt`                                               |
-| Reading between the Eyes (150)    | fwopCTF{r34d1ng_b37w33n_7h3_by73s} | [Steganography Online](https://stylesuxx.github.io/steganography/) |
-| Sharper Image (150)               | fwopCTF{this_is_a_boring_flag}     | `base64 -d bb.txt  > bb.png`                                       |
-| Bitcoin Laundering (0) (200)      | fwopCTF{20000}                     | `cat transactions.json | grep -o -i { | wc -l`                     |
+|              Challenge              |                Flag                |                                Method                                |
+| ----------------------------------- | ---------------------------------- | -------------------------------------------------------------------- |
+| Alice in Wonderland? (100)          | fwopCTF{Beneath_the_surface}       | `strings garden.jpg`                                                 |
+| Just inflate me (100)               | fwopCTF{ok_you_found_me}           | `gunzip flag.txt.gz`                                                 |
+| Not Viewable (100)                  | fwopCTF{actually_an_image}         | change `fflag.txt` to .png or .jpg                                   |
+| The Meta Joke (100)                 | fwopCTF{metadata_is_funky}         | `file MyCoolCard.jpg`                                                |
+| Not the same (150)                  | fwopCTF{r3sp3ct_th3_d1ff}          | `diff t1.txt t2.txt`                                                 |
+| Reading between the Eyes (150)      | fwopCTF{r34d1ng_b37w33n_7h3_by73s} | [Steganography Online](https://stylesuxx.github.io/steganography/)   |
+| Sharper Image (150)                 | fwopCTF{this_is_a_boring_flag}     | `base64 -d bb.txt  > bb.png`                                         |
+| Bitcoin Laundering (0) (200)        | fwopCTF{20000}                     | <code>cat transactions.json &#124; grep -o -i { &#124; wc -l</code>  |
+| Follow the Shiba (200)              | fwopCTF{steg_is_fun}               | Check LSB of first file, grab imgur img, LSB                         |
+| Pranked (200)                       | fwopCTF{easilypranked}             | Inspect element, https://tinyurl.com/easilypranked                   |
+| What is in this Cookie? (200)       |                                    |                                                                      |
+| What's inside of this apple? (200)  |                                    |                                                                      |
+| Corrupted_File (300)                | fwopCTF{C0rrupted}                 | Make sure the first 18 and last 12 bytes of a PNG match w. Hexedit `89 50 4E 47 0D 0A 1A 0A 00 00 00 0D` |
 
 ## 03 Linux Lab
 |             Challenge             |                Flag                |                               Method                               |
@@ -61,8 +66,32 @@ Link: https://ctf.fweefwop.club/challenges
 | Linux Lab Level 3 (100)           | fwopCTF{level_3_ti8fx}             | `cat flag.txt`                                                     |
 | Linux Lab Level 4 (100)           | fwopCTF{level_4_nmc4e}             | `env`                                                              |
 | Linux Lab Level 5 (100)           | fwopCTF{level_5_4gw}               | A lot of `ls` and `cd` and autocomplete with <kbd>Tab</kbd>        |
-| Linux Lab Level 6 (100)           | fwopCTF{level_6_3bw}               | `cat flag.txt | grep -i fwopCTF{`                                  |
+| Linux Lab Level 6 (100)           | fwopCTF{level_6_3bw}               | <code>cat flag.txt &#124; grep -i fwopCTF{</code>                  |
 | Linux Lab Level 7 (100)           | fwopCTF{level_7_82j}               | `cat .flag.txt`                                                    |
 | Linux Lab Level 8 (100)           | fwopCTF{level_8_2b3}               | `cat flag.png`                                                     |
 | Linux Lab Level 9 (100)           | fwopCTF{level_9_c2p}               | `diff f1.txt f2.txt`                                               |
 | Linux Lab Level 10 (100)          | fwopCTF{level_10_fqd}              | `cat ./-cant_touch_this`                                           |
+| Linux Lab Level 11 (100)          | fwopCTF{level_11_87h}              | `cat readme` --> `find / -name level11_flag.txt 2> /dev/null`      |
+
+## 04 Crypto
+|             Challenge             |                Flag                |                               Method                               |
+| --------------------------------- | ---------------------------------- | ------------------------------------------------------------------ |
+| Caesar (100)                      | fwopCTF{Brutus_says_Ceaser_sucks}  | [Ceasar cipher](https://www.dcode.fr/caesar-cipher) shift 16       |
+
+## 05 Web
+|             Challenge             |                Flag                |                               Method                               |
+| --------------------------------- | ---------------------------------- | ------------------------------------------------------------------ |
+| In Front Of Your Eyes (100)       | fwopCTF{Wolfy_The_Wolf}            | [View page source](https://web.fweefwop.club/in_front_of_ur_eyes.html)|
+| Marq-weeeeeee! (100)              | fwopCTF{t3f0n00}                   | [View page source](https://web.fweefwop.club/weee.html) and look for fwopCTF |
+
+## 06 Reverse
+|             Challenge             |                Flag                |                               Method                               |
+| --------------------------------- | ---------------------------------- | ------------------------------------------------------------------ |
+
+## 07 OSINT
+|             Challenge             |                Flag                |                               Method                               |
+| --------------------------------- | ---------------------------------- | ------------------------------------------------------------------ |
+| A street named what? (100)        | fwopCTF{Pruneridge}                | 3896 Pruneridge Ave                                                |
+| Where is everybody? (100)         |                                    |                                                                    |
+| Kevin Gaming (200)                |                                    |                                                                    |
+| A street named what? (100)        | fwopCTF{Kinshasa}                  | (-4.396,15.317)                                                    |
