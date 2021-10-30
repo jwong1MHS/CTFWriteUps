@@ -54,11 +54,13 @@ Link: https://ctf.fweefwop.club/challenges
 | Bitcoin Laundering (0) (200)        | fwopCTF{20000}                     | <code>cat transactions.json &#124; grep -o -i { &#124; wc -l</code>  |
 | Follow the Shiba (200)              | fwopCTF{steg_is_fun}               | [Steganography Online](https://stylesuxx.github.io/steganography/) Check LSB of first file, grab imgur link, LSB |
 | Pranked (200)                       | fwopCTF{easilypranked}             | Inspect element, https://tinyurl.com/easilypranked                   |
-| What is in this Cookie? (200)       |                                    |                                                                      |
+| What is in this Cookie? (200)       | fwopCTF{ThisIsSoMuchFun}           | [Steganography Online](https://stylesuxx.github.io/steganography/)   |
 | What's inside of this apple? (200)  |                                    |                                                                      |
 | Wood Door (250)                     | fwopCTF{hiding_in_bit_plane}       | [StegOnline](https://stegonline.georgeom.net/) Blue 2                |
 | Apples & Oranges (250)              | fwopCTF{which_is_your_favorite}    | [Steganographic Decoder](https://futureboy.us/stegano/decinput.html) or `steghide extract -sf Apple.jpg` |
 | Corrupted_File (300)                | fwopCTF{C0rrupted}                 | Make sure the first 18 and last 12 bytes of a PNG match w. Hexedit `89 50 4E 47 0D 0A 1A 0A 00 00 00 0D` |
+| Kevin zzZZ (400)                    | fwopCTF{rick_fan_are_you_not?}     | `binwalk --dd=".*" kevin_zzZZ.jpg`, `file *`, `mv 21FB71 21FB71.png`, Scan QR code |
+
 
 ## 03 Linux Lab
 |             Challenge             |                Flag                |                               Method                               |
@@ -103,6 +105,7 @@ Link: https://ctf.fweefwop.club/challenges
 ## 06 Reverse
 |             Challenge             |                Flag                |                               Method                               |
 | --------------------------------- | ---------------------------------- | ------------------------------------------------------------------ |
+| Reversing Python 1 (100)          | fwopCTF{no_python_required}        | `cat Reverse1.py`                                                  |
 
 ## 07 OSINT
 |             Challenge             |                Flag                |                               Method                               |
