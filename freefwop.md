@@ -79,10 +79,13 @@ Link: https://ctf.fweefwop.club/challenges
 | Caesar (100)                      | fwopCTF{Brutus_says_Ceaser_sucks}  | [Ceasar cipher](https://www.dcode.fr/caesar-cipher) shift 16       |
 
 ## 05 Web
-|             Challenge             |                Flag                |                               Method                               |
-| --------------------------------- | ---------------------------------- | ------------------------------------------------------------------ |
-| In Front Of Your Eyes (100)       | fwopCTF{Wolfy_The_Wolf}            | [View page source](https://web.fweefwop.club/in_front_of_ur_eyes.html)|
-| Marq-weeeeeee! (100)              | fwopCTF{t3f0n00}                   | [View page source](https://web.fweefwop.club/weee.html) and look for fwopCTF |
+|             Challenge             |                      Flag                      |                               Method                               |
+| --------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------ |
+| In Front Of Your Eyes (100)       | fwopCTF{Wolfy_The_Wolf}                        | [Link](https://web.fweefwop.club/in_front_of_ur_eyes.html) View page source |
+| Marq-weeeeeee! (100)              | fwopCTF{t3f0n00}                               | [Link](https://web.fweefwop.club/weee.html) Look for fwopCTF in page source |
+| No Inspector (100)                | fwopCTF{funky_0n_4_fr1day_n1ght}               | [Link](https://web.fweefwop.club/no_inspector.html) View JS script      |
+| Robot Invasion (100)              | fwopCTF{k1ller_r0bots_wilL_rUl3_th3_W0rld!!1}  | [Link](https://web.fweefwop.club/robot_invasion.html) Check robots.txt to find secret directory |
+| Wacky CSS (100)                   | fwopCTF{fwopCTF{Take_my_hand_to_your_fantasy}}  | [Link](https://web.fweefwop.club/wacky_css.html) View CSS file    |
 
 ## 06 Reverse
 |             Challenge             |                Flag                |                               Method                               |
