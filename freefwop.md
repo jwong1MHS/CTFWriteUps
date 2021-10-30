@@ -5,13 +5,13 @@ Link: https://ctf.fweefwop.club/challenges
 | --------------------------------- | ------------------------------ | -------------------------------------------------------------- |
 | Assembly Warm Up (100)            | fwopCTF{Assembly}              | Google/Common Knowledge                                        |
 | Base2 (100)                       | fwopCTF{11101000}              | [Hex to Decimal](https://www.rapidtables.com/convert/number/hex-to-decimal.html) |
-| Base64 Abridged (100)             | fwopCTF{SSBsb3ZlIENURg==}      | ASCII to Base64 [CyberChef](https://gchq.github.io/CyberChef/#recipe=To_Base64('A-Za-z0-9%2B/%3D')) |
-| Hex the way in (100)              | fwopCTF{back_from_hex}         | Hex to ASCII [CyberChef](https://gchq.github.io/CyberChef/#recipe=From_Hex('Auto')) |
+| Base64 Abridged (100)             | fwopCTF{SSBsb3ZlIENURg==}      | [ASCII to Base64](https://gchq.github.io/CyberChef/#recipe=To_Base64('A-Za-z0-9%2B/%3D')) |
+| Hex the way in (100)              | fwopCTF{back_from_hex}         | [Hex to ASCII](https://gchq.github.io/CyberChef/#recipe=From_Hex('Auto')) |
 | Jon Us in Discord (100)           | fwopCTF{fweefwop_ctf_go_go_go} | [Discord Link](https://discord.gg/y2BXfQCgmN)                  |
 | Name this language (6) (100)      | fwopCTF{BASIC}                 | Google                                                         |
-| Touch the base (100)              | fwopCTF{base64_is_everywhere}  | Base64 to ASCII [CyberChef](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)) |
+| Touch the base (100)              | fwopCTF{base64_is_everywhere}  | [Base64 to ASCII](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)) |
 | Warm Up -- Let's Start! (100)     | fwopCTF{this_is_the_flag}      | Copy/paste                                                     |
-| Zeros and Ones (100)              | fwopCTF{complicated}           | Binary to ASCII [CyberChef](https://gchq.github.io/CyberChef/#recipe=From_Binary('Space',8)) |
+| Zeros and Ones (100)              | fwopCTF{complicated}           | [Binary to ASCII](https://gchq.github.io/CyberChef/#recipe=From_Binary('Space',8)) |
 | Assembly: MOV and ADD (150)       | fwopCTF{37223}                 | [Assembly Emulator](https://carlosrafaelgn.com.br/Asm86)       |
 | Assembly: Reset a register (150)  | fwopCTF{xor}                   | [Assembly Emulator](https://carlosrafaelgn.com.br/Asm86)       |
 | Assembly: Stack (1) (150)         | fwopCTF{0x123}                 | [Assembly Emulator](https://carlosrafaelgn.com.br/Asm86)       |
@@ -35,7 +35,7 @@ Link: https://ctf.fweefwop.club/challenges
 | Modular (1) (200)                 | fwopCTF{31}                    | [WolframAlpha](https://www.wolframalpha.com/input/?i=x+*+11+%3D+46+%28mod+59%29) |
 | Modular (2) (200)                 | fwopCTF{194}                   | [WolframAlpha](https://www.wolframalpha.com/input/?i=x*x+%3D+2+%28mod+607%29) |
 | NASM (2) (200)                    | fwopCTF{9}                     | Line 13 of hello.asm                                           |
-| XOR warm up (200)                 | fwopCTF{xor_rules}             | XOR with key 01 [CyberChef](https://gchq.github.io/CyberChef/#recipe=XOR(%7B'option':'Hex','string':'01'%7D,'Standard',false)) |
+| XOR warm up (200)                 | fwopCTF{xor_rules}             | [XOR with key 01](https://gchq.github.io/CyberChef/#recipe=XOR(%7B'option':'Hex','string':'01'%7D,'Standard',false)) |
 | NASM (1) (250)                    | fwopCTF{i_have_done_this_ex}   | [Online NASM Emulator](https://rextester.com/l/nasm_online_compiler)  |
 | Go through some gates (300)       | fwopCTF{1}                     | [Digital Logic](https://www.circuitbasics.com/what-is-digital-logic/) |
 | Assembly: Jump (400)              | fwopCTF{fwop}                  | Line 33 from 0x0? to 0x0d                                      |
@@ -74,9 +74,13 @@ Link: https://ctf.fweefwop.club/challenges
 | Linux Lab Level 11 (100)          | fwopCTF{level_11_87h}              | `cat readme` --> `find / -name level11_flag.txt 2> /dev/null`      |
 
 ## 04 Crypto
-|             Challenge             |                Flag                |                               Method                               |
-| --------------------------------- | ---------------------------------- | ------------------------------------------------------------------ |
-| Caesar (100)                      | fwopCTF{Brutus_says_Ceaser_sucks}  | [Ceasar cipher](https://www.dcode.fr/caesar-cipher) shift 16       |
+|             Challenge             |                    Flag                    |                               Method                               |
+| --------------------------------- | ------------------------------------------ | ------------------------------------------------------------------ |
+| Caesar (100)                      | fwopCTF{Brutus_says_Ceaser_sucks}          | [Ceasar cipher](https://www.dcode.fr/caesar-cipher) shift 16       |
+| FlipFwop (100)                    | fwopCTF{earth_fire_water_air}              | [Flip](http://flipapicture.com/) flip horizontally                 |
+| Oink (100)                        | fwopCTF{welovepigs}                        | [Pigpen cipher](https://en.wikipedia.org/wiki/Pigpen_cipher)       |
+| Simple MD5 (100)                  | fwopCTF{7ca2197c58b026825c382e32621b1ce4}  | [MD5](https://gchq.github.io/CyberChef/#recipe=MD5())              |
+| Some Ciphers (100)                | fwopCTF{multi_cipher_shenanigans}          | [ROT13](https://rot13.com/), [Ceasar cipher](https://www.dcode.fr/caesar-cipher) shift 3 |
 
 ## 05 Web
 |             Challenge             |                      Flag                      |                               Method                               |
@@ -85,7 +89,7 @@ Link: https://ctf.fweefwop.club/challenges
 | Marq-weeeeeee! (100)              | fwopCTF{t3f0n00}                               | [Link](https://web.fweefwop.club/weee.html) Look for fwopCTF in page source |
 | No Inspector (100)                | fwopCTF{funky_0n_4_fr1day_n1ght}               | [Link](https://web.fweefwop.club/no_inspector.html) View JS script      |
 | Robot Invasion (100)              | fwopCTF{k1ller_r0bots_wilL_rUl3_th3_W0rld!!1}  | [Link](https://web.fweefwop.club/robot_invasion.html) Check robots.txt to find secret directory |
-| Wacky CSS (100)                   | fwopCTF{fwopCTF{Take_my_hand_to_your_fantasy}}  | [Link](https://web.fweefwop.club/wacky_css.html) View CSS file    |
+| Wacky CSS (100)                   | fwopCTF{fwopCTF{Take_my_hand_to_your_fantasy}} | [Link](https://web.fweefwop.club/wacky_css.html) View CSS file     |
 
 ## 06 Reverse
 |             Challenge             |                Flag                |                               Method                               |
@@ -97,4 +101,4 @@ Link: https://ctf.fweefwop.club/challenges
 | A street named what? (100)        | fwopCTF{Pruneridge}                | 3896 Pruneridge Ave                                                |
 | Where is everybody? (100)         |                                    |                                                                    |
 | Kevin Gaming (200)                |                                    |                                                                    |
-| A street named what? (100)        | fwopCTF{Kinshasa}                  | (-4.396,15.317)                                                    |
+| Location Location Location (200)  | fwopCTF{Kinshasa}                  | (-4.396,15.317)                                                    |
