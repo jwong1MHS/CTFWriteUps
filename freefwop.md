@@ -103,9 +103,11 @@ Link: https://ctf.fweefwop.club/challenges
 | 53Cr37 8r0W53r (400)              | fwopCTF{secret_browser_007}                    | [Link](https://web.fweefwop.club/cookie.php) Inspect -> More tools -> Network conditions -> User agent A3SECRET |
 
 ## 06 Reverse
-|             Challenge             |                Flag                |                               Method                               |
-| --------------------------------- | ---------------------------------- | ------------------------------------------------------------------ |
-| Reversing Python 1 (100)          | fwopCTF{no_python_required}        | `cat Reverse1.py`                                                  |
+|             Challenge             |                            Flag                            |                               Method                               |
+| --------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
+| Reversing Python 1 (100)          | fwopCTF{no_python_required}                                | `cat Reverse1.py`                                                  |
+| Reversing Python 2 (150)          | fwopCTF{perhaps_this_is_the_flag}                          | `cat Reverse2.py`                                                  |
+| Reversing Python 3 (175)          | fwopCTF{see_seesaw_sheshore_see_sheshore_seasells_shells}  | `cat Reverse3.py`                                                  |
 
 ## 07 OSINT
 |             Challenge             |                Flag                |                               Method                               |
