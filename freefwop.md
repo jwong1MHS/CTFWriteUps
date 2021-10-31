@@ -51,7 +51,7 @@ Link: https://ctf.fweefwop.club/challenges
 | Not the same (150)                  | fwopCTF{r3sp3ct_th3_d1ff}          | `diff t1.txt t2.txt`                                                 |
 | Reading between the Eyes (150)      | fwopCTF{r34d1ng_b37w33n_7h3_by73s} | [Steganography Online](https://stylesuxx.github.io/steganography/)   |
 | Sharper Image (150)                 | fwopCTF{this_is_a_boring_flag}     | `base64 -d bb.txt  > bb.png`                                         |
-| Bitcoin Laundering (0) (200)        | fwopCTF{20000}                     | <code>cat transactions.json &#124; grep -o -i { &#124; wc -l</code>  |
+| Bitcoin Laundering (0) (200)        | fwopCTF{20000}                     | <code>grep -o -i { transactions.json &#124; wc -l</code>  |
 | Follow the Shiba (200)              | fwopCTF{steg_is_fun}               | [Steganography Online](https://stylesuxx.github.io/steganography/) Check LSB of first file, grab imgur link, LSB |
 | Pranked (200)                       | fwopCTF{easilypranked}             | Inspect element, https://tinyurl.com/easilypranked                   |
 | What is in this Cookie? (200)       | fwopCTF{ThisIsSoMuchFun}           | [Steganography Online](https://stylesuxx.github.io/steganography/)   |
@@ -108,6 +108,7 @@ Link: https://ctf.fweefwop.club/challenges
 | Reversing Python 1 (100)          | fwopCTF{no_python_required}                                | `cat Reverse1.py`                                                  |
 | Reversing Python 2 (150)          | fwopCTF{perhaps_this_is_the_flag}                          | `cat Reverse2.py`                                                  |
 | Reversing Python 3 (175)          | fwopCTF{see_seesaw_sheshore_see_sheshore_seasells_shells}  | `cat Reverse3.py`                                                  |
+| Reversing Python 3 Bonus (250)    | fwopCTF{a505d061c2baf118fce231d8bfc7c1cbad34ccf7f2ed2c4b8b8c675c235fd744}  | `grep -E 'kaq8h|nw91' Reverse3EXTRA.py`            |
 
 ## 07 OSINT
 |             Challenge             |                Flag                |                               Method                               |
