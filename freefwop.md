@@ -109,6 +109,10 @@ Link: https://ctf.fweefwop.club/challenges
 | Complete me (200)                 | fwopCTF{where}                                 | SQL Select From Where                                              |
 | Cookies (250)                     |                                                |                                                                    |
 | 53Cr37 8r0W53r (400)       | fwopCTF{secret_browser_007} | [Link](https://web.fweefwop.club/cookie.php) Inspect -> More tools -> Network conditions -> User agent A3SECRET |
+| weird requests huh (400)          | fwopCTF{what_does_put_even_do??} | [Link](https://web.fweefwop.club/requests.php) `curl -X PUT https://web.fweefwop.club/requests.php` |
+| SQLI (500)                        | fwopCTF{Leaked_data_123}                       | [Link](http://web.fweefwop.club:8400/login.php) [SQL Injection](https://d00mfist.gitbooks.io/ctf/content/sql-injections.html) username and password: `'--` or `' OR '1'='1` |
+| SQLI But Filtered? (600)          | fwopCTF{f1lt3rs_not_good_3n0ugh}               | [Link](http://web.fweefwop.club:8402/login.php) (can't have injection start with `'`) username and password: `-'` |
+
 
 ## 06 Reverse
 |             Challenge             |                            Flag                            |                               Method                               |
@@ -120,6 +124,7 @@ Link: https://ctf.fweefwop.club/challenges
 | Reversing Python 4 (250)          | fwopCTF{then_if_then_else_if_if}                           | Paste code into python terminal                                    |
 | Reversing Python 5 (275)          | fwopCTF{bonucleicryxriluoxe}                               | Paste code into python terminal                                    |
 | Reversing Python 6 (300)          | fwopCTF{also_crypto_lol}                                   | Paste code into python terminal                                    |
+| Fwop Door (500)                   | fwopCTF{quite_a_long_flag_for_reverse_eng_dont_you_think_so} | `python3 fwop_door.py`                                           |
 
 ## 07 OSINT
 |             Challenge             |                Flag                |                               Method                               |
