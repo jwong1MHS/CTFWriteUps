@@ -80,6 +80,8 @@ Link: https://ctf.fweefwop.club/challenges
 ## 04 Crypto
 |             Challenge             |                       Flag                       |                               Method                               |
 | --------------------------------- | ------------------------------------------------ | ------------------------------------------------------------------ |
+| Baby RSA (2) (100)                | 56128199547956677238767298622332803823913995062683233044001500290070667830063 | `python3 baby_rsa_2`                  |
+| Baby RSA (3) (100)                | 56128199547956677238767298622332803823430928948082558447308185662138795433600 | `python3 baby_rsa_3`                  |
 | Caesar (100)                      | fwopCTF{Brutus_says_Ceaser_sucks}                | [Ceasar cipher](https://www.dcode.fr/caesar-cipher) shift 16       |
 | FlipFwop (100)                    | fwopCTF{earth_fire_water_air}                    | [Flip](http://flipapicture.com/) flip horizontally                 |
 | Oink (100)                        | fwopCTF{welovepigs}                              | [Pigpen cipher](https://en.wikipedia.org/wiki/Pigpen_cipher)       |
@@ -91,6 +93,7 @@ Link: https://ctf.fweefwop.club/challenges
 | Samuel Morse (150)                | fwopCTF{MORSE_CODE_EASY}               | [Morse Code](https://gchq.github.io/CyberChef/#recipe=From_Morse_Code('Space','Line%20feed')) |
 | 5x5  (200)                        | fwopCTF{POLYBIUSSQUARE}                        | [Polybius Cipher](https://www.dcode.fr/polybius-cipher) key=ABCDEFGHIKLMNOPQRSTUVWXYZ |
 | Baby RSA (0) (200)                | fwopCTF{13045502302425615144883543017919348302961367754511098998678884785553997741250139993469249405} | `python3 baby_rsa_0` |
+| Baby RSA (4) (200)                | fwopCTF{16832067193038570664627710532871887598013604871431045374089410572330773390687} | `python3 baby_rsa_4` |
 | Capture the flags (200)           | fwopCTF{eureka8891}               | [International Code of Signals](https://en.wikipedia.org/wiki/International_maritime_signal_flags) |
 | Hebrew Texts (200)               | fwopCTF{the_water_in_the_black_sea_is_too_salty_aUdhEUjIhO} | [Atbash Cipher](https://gchq.github.io/CyberChef/#recipe=Atbash_Cipher()) |
 | talking in the wind (200)         | fwopCTF{COMEFROMTHEWIND}                         | [Navajo Code Cipher](https://www.dcode.fr/navajo-code)             |
@@ -107,7 +110,8 @@ Link: https://ctf.fweefwop.club/challenges
 | Robot Invasion (100)    | fwopCTF{k1ller_r0bots_wilL_rUl3_th3_W0rld!!1}  | [Link](https://web.fweefwop.club/robot_invasion.html) Check robots.txt to find secret directory |
 | Wacky CSS (100)                   | fwopCTF{Take_my_hand_to_your_fantasy}          | [Link](https://web.fweefwop.club/wacky_css.html) View CSS file     |
 | Complete me (200)                 | fwopCTF{where}                                 | SQL Select From Where                                              |
-| Cookies (250)                     |                                                |                                                                    |
+| Cookies (250)                     | fwopCTF{Nom_nom_cookies}                       | Inspect element -> Application -> user changed to COOKIE MONSTER   |
+| client side login (300)           | fwopCTF{SFOVF5TENW}                            | `_bef____a_`                                                       |
 | 53Cr37 8r0W53r (400)       | fwopCTF{secret_browser_007} | [Link](https://web.fweefwop.club/cookie.php) Inspect -> More tools -> Network conditions -> User agent A3SECRET |
 | weird requests huh (400)          | fwopCTF{what_does_put_even_do??} | [Link](https://web.fweefwop.club/requests.php) `curl -X PUT https://web.fweefwop.club/requests.php` |
 | SQLI (500)                        | fwopCTF{Leaked_data_123}                       | [Link](http://web.fweefwop.club:8400/login.php) [SQL Injection](https://d00mfist.gitbooks.io/ctf/content/sql-injections.html) username and password: `'--` or `' OR '1'='1` |
@@ -124,7 +128,9 @@ Link: https://ctf.fweefwop.club/challenges
 | Reversing Python 4 (250)          | fwopCTF{then_if_then_else_if_if}                           | Paste code into python terminal                                    |
 | Reversing Python 5 (275)          | fwopCTF{bonucleicryxriluoxe}                               | Paste code into python terminal                                    |
 | Reversing Python 6 (300)          | fwopCTF{also_crypto_lol}                                   | Paste code into python terminal                                    |
+| Reversing Python 7 (350)          | its_time_t;qfwopCTF{                                       | String starts at index 12 and ends at ; and is 20 length           |
 | Fwop Door (500)                   | fwopCTF{quite_a_long_flag_for_reverse_eng_dont_you_think_so} | `python3 fwop_door.py`                                           |
+| Reversing Python 8 (500)          | fwopCTF{arrays_hold_things}                                | Brute force character by character                                 |
 
 ## 07 OSINT
 |             Challenge             |                Flag                |                               Method                               |
