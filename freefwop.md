@@ -88,7 +88,7 @@ Link: https://ctf.fweefwop.club/challenges
 | More than 64 (125)                | fwopCTF{other_bases_would_work_too_not_just_64}  | [Cipher Identifier](https://www.dcode.fr/cipher-identifier), [Base85](https://gchq.github.io/CyberChef/#recipe=From_Base85('!-u')) |
 | ROT More (150)                    | fwopCTF{r0t47_t_is}                              | [Base85](https://gchq.github.io/CyberChef/#recipe=ROT47(47))       |
 | Samuel Morse (150)                | fwopCTF{MORSE_CODE_EASY}                         | [Morse Code](https://gchq.github.io/CyberChef/#recipe=From_Morse_Code('Space','Line%20feed')) |
-
+| Capture the flags (200)           | fwopCTF{eureka8891}                              | [International Code of Signals](https://en.wikipedia.org/wiki/International_maritime_signal_flags) |
 
 ## 05 Web
 |             Challenge             |                      Flag                      |                               Method                               |
@@ -109,6 +109,9 @@ Link: https://ctf.fweefwop.club/challenges
 | Reversing Python 2 (150)          | fwopCTF{perhaps_this_is_the_flag}                          | `cat Reverse2.py`                                                  |
 | Reversing Python 3 (175)          | fwopCTF{see_seesaw_sheshore_see_sheshore_seasells_shells}  | `cat Reverse3.py`                                                  |
 | Reversing Python 3 Bonus (250)    | fwopCTF{a505d061c2baf118fce231d8bfc7c1cbad34ccf7f2ed2c4b8b8c675c235fd744}  | `grep -E 'kaq8h|nw91' Reverse3EXTRA.py`            |
+| Reversing Python 4 (250)          | fwopCTF{then_if_then_else_if_if}                           | Paste code into python terminal                                    |
+| Reversing Python 5 (275)          | fwopCTF{bonucleicryxriluoxe}                               | Paste code into python terminal                                    |
+| Reversing Python 6 (300)          | fwopCTF{also_crypto_lol}                                   | Paste code into python terminal                                    |
 
 ## 07 OSINT
 |             Challenge             |                Flag                |                               Method                               |
