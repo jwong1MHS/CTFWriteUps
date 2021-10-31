@@ -27,7 +27,7 @@ Link: https://ctf.fweefwop.club/challenges
 | Name this language (8) (150)      | fwopCTF{Haskell}               | Google                                                         |
 | Name this language(0) (150)       | fwopCTF{C}                     | Google                                                         |
 | Shift (150)                       | fwopCTF{0x1200}                | [Assembly Emulator](https://carlosrafaelgn.com.br/Asm86)       |
-| What is that thing? (3) (150)     | fwopCTF{icmp}                  | [Common Protocols](https://en.wikibooks.org/wiki/Network_Plus_Certification/Technologies/Common_Protocols) |
+| What is that thing? (3) (150)     | fwopCTF{icmp}             | [Common Protocols](https://en.wikibooks.org/wiki/Network_Plus_Certification/Technologies/Common_Protocols) |
 | What's that thing? (0) (150)      | fwopCTF{compiler}              | Common Knowledge                                               |
 | What's that thing? (1) (150)      |                                |                                                                |
 | What's that thing? (2) (150)      | fwopCTF{switch}                | [Types of Network Devices](https://www.educba.com/types-of-network-devices/) |
@@ -35,7 +35,7 @@ Link: https://ctf.fweefwop.club/challenges
 | Modular (1) (200)                 | fwopCTF{31}                    | [WolframAlpha](https://www.wolframalpha.com/input/?i=x+*+11+%3D+46+%28mod+59%29) |
 | Modular (2) (200)                 | fwopCTF{194}                   | [WolframAlpha](https://www.wolframalpha.com/input/?i=x*x+%3D+2+%28mod+607%29) |
 | NASM (2) (200)                    | fwopCTF{9}                     | Line 13 of hello.asm                                           |
-| XOR warm up (200)                 | fwopCTF{xor_rules}             | [XOR with key 01](https://gchq.github.io/CyberChef/#recipe=XOR(%7B'option':'Hex','string':'01'%7D,'Standard',false)) |
+| XOR warm up (200)              | fwopCTF{xor_rules} | [XOR with key 01](https://gchq.github.io/CyberChef/#recipe=XOR(%7B'option':'Hex','string':'01'%7D,'Standard',false)) |
 | NASM (1) (250)                    | fwopCTF{i_have_done_this_ex}   | [Online NASM Emulator](https://rextester.com/l/nasm_online_compiler)  |
 | Go through some gates (300)       | fwopCTF{1}                     | [Digital Logic](https://www.circuitbasics.com/what-is-digital-logic/) |
 | Assembly: Jump (400)              | fwopCTF{fwop}                  | Line 33 from 0x0? to 0x0d                                      |
@@ -47,18 +47,18 @@ Link: https://ctf.fweefwop.club/challenges
 | Alice in Wonderland? (100)          | fwopCTF{Beneath_the_surface}       | `strings garden.jpg`                                                 |
 | Just inflate me (100)               | fwopCTF{ok_you_found_me}           | `gunzip flag.txt.gz`                                                 |
 | Not Viewable (100)                  | fwopCTF{actually_an_image}         | change `fflag.txt` to .png or .jpg                                   |
-| The Meta Joke (100)                 | fwopCTF{metadata_is_funky}         | [Metadata Viewer](http://exif.regex.info/exif.cgi) `file MyCoolCard.jpg` |                                               |
+| The Meta Joke (100)                 | fwopCTF{metadata_is_funky}         | [Metadata Viewer](http://exif.regex.info/exif.cgi) `file MyCoolCard.jpg` |
 | Not the same (150)                  | fwopCTF{r3sp3ct_th3_d1ff}          | `diff t1.txt t2.txt`                                                 |
 | Reading between the Eyes (150)      | fwopCTF{r34d1ng_b37w33n_7h3_by73s} | [Steganography Online](https://stylesuxx.github.io/steganography/)   |
 | Sharper Image (150)                 | fwopCTF{this_is_a_boring_flag}     | `base64 -d bb.txt  > bb.png`                                         |
 | Bitcoin Laundering (0) (200)        | fwopCTF{20000}                     | <code>grep -o -i { transactions.json &#124; wc -l</code>  |
-| Follow the Shiba (200)              | fwopCTF{steg_is_fun}               | [Steganography Online](https://stylesuxx.github.io/steganography/) Check LSB of first file, grab imgur link, LSB |
+| Follow the Shiba (200)           | fwopCTF{steg_is_fun} | [Steganography Online](https://stylesuxx.github.io/steganography/) Check LSB of first file, grab imgur link, LSB |
 | Pranked (200)                       | fwopCTF{easilypranked}             | Inspect element, https://tinyurl.com/easilypranked                   |
 | What is in this Cookie? (200)       | fwopCTF{ThisIsSoMuchFun}           | [Steganography Online](https://stylesuxx.github.io/steganography/)   |
 | What's inside of this apple? (200)  |                                    |                                                                      |
 | Wood Door (250)                     | fwopCTF{hiding_in_bit_plane}       | [StegOnline](https://stegonline.georgeom.net/) Blue 2                |
-| Apples & Oranges (250)              | fwopCTF{which_is_your_favorite}    | [Steganographic Decoder](https://futureboy.us/stegano/decinput.html) or `steghide extract -sf Apple.jpg` |
-| Corrupted_File (300)                | fwopCTF{C0rrupted}                 | Make sure the first 18 and last 12 bytes of a PNG match w. Hexedit `89 50 4E 47 0D 0A 1A 0A 00 00 00 0D` |
+| Apples & Oranges (250)     | fwopCTF{which_is_your_favorite}    | [Steganographic Decoder](https://futureboy.us/stegano/decinput.html) or `steghide extract -sf Apple.jpg` |
+| Corrupted_File (300)                | fwopCTF{C0rrupted}        | Make sure the first 18 and last 12 bytes of a PNG match w. Hexedit `89 50 4E 47 0D 0A 1A 0A 00 00 00 0D` |
 | Kevin zzZZ (400)                    | fwopCTF{rick_fan_are_you_not?}     | `binwalk --dd=".*" kevin_zzZZ.jpg`, `file *`, `mv 21FB71 21FB71.png`, Scan QR code |
 
 
@@ -84,12 +84,19 @@ Link: https://ctf.fweefwop.club/challenges
 | FlipFwop (100)                    | fwopCTF{earth_fire_water_air}                    | [Flip](http://flipapicture.com/) flip horizontally                 |
 | Oink (100)                        | fwopCTF{welovepigs}                              | [Pigpen cipher](https://en.wikipedia.org/wiki/Pigpen_cipher)       |
 | Simple MD5 (100)                  | fwopCTF{7ca2197c58b026825c382e32621b1ce4}        | [MD5](https://gchq.github.io/CyberChef/#recipe=MD5())              |
-| Some Ciphers (100)                | fwopCTF{multi_cipher_shenanigans}                | [ROT13](https://rot13.com/), [Caesar cipher](https://www.dcode.fr/caesar-cipher) shift 3 |
+| Some Ciphers (100)                | fwopCTF{multi_cipher_shenanigans}           | [ROT13](https://rot13.com/), [Caesar cipher](https://www.dcode.fr/caesar-cipher) shift 3 |
 | More than 64 (125)                | fwopCTF{other_bases_would_work_too_not_just_64}  | [Cipher Identifier](https://www.dcode.fr/cipher-identifier), [Base85](https://gchq.github.io/CyberChef/#recipe=From_Base85('!-u')) |
-| ROT More (150)                    | fwopCTF{r0t47_t_is}                              | [Base85](https://gchq.github.io/CyberChef/#recipe=ROT47(47))       |
-| Samuel Morse (150)                | fwopCTF{MORSE_CODE_EASY}                         | [Morse Code](https://gchq.github.io/CyberChef/#recipe=From_Morse_Code('Space','Line%20feed')) |
-| Capture the flags (200)           | fwopCTF{eureka8891}                              | [International Code of Signals](https://en.wikipedia.org/wiki/International_maritime_signal_flags) |
-| Hebrew Texts (200)                | fwopCTF{eureka8891}                              | [International Code of Signals](https://en.wikipedia.org/wiki/International_maritime_signal_flags) |
+| Baby RSA (1) (150)                | fwopCTF{another_baby_rsa}                        | `python3 baby_rsa_1` |
+| ROT More (150)                    | fwopCTF{r0t47_t_is}                              | [ROT47](https://gchq.github.io/CyberChef/#recipe=ROT47(47))        |
+| Samuel Morse (150)                | fwopCTF{MORSE_CODE_EASY}               | [Morse Code](https://gchq.github.io/CyberChef/#recipe=From_Morse_Code('Space','Line%20feed')) |
+| 5x5  (200)                        | fwopCTF{POLYBIUSSQUARE}                        | [Polybius Cipher](https://www.dcode.fr/polybius-cipher) key=ABCDEFGHIKLMNOPQRSTUVWXYZ |
+| Baby RSA (0) (200)                | fwopCTF{13045502302425615144883543017919348302961367754511098998678884785553997741250139993469249405} | `python3 baby_rsa_0` |
+| Capture the flags (200)           | fwopCTF{eureka8891}               | [International Code of Signals](https://en.wikipedia.org/wiki/International_maritime_signal_flags) |
+| Hebrew Texts (200)               | fwopCTF{the_water_in_the_black_sea_is_too_salty_aUdhEUjIhO} | [Atbash Cipher](https://gchq.github.io/CyberChef/#recipe=Atbash_Cipher()) |
+| talking in the wind (200)         | fwopCTF{COMEFROMTHEWIND}                         | [Navajo Code Cipher](https://www.dcode.fr/navajo-code)             |
+| Touch and feel (200)              | fwopCTF{BRAILLE_FUN}                             | [Braille](https://en.wikipedia.org/wiki/English_Braille)           |
+| Elementary, My Dear Watson (300)  | fwopCTF{You_know_my_methods_Watson}              | [Dancing Men Cipher](https://www.dcode.fr/dancing-men-cipher)      |
+| This is just ridiculous! (300)    | fwopCTF{so_many_steps}                           | base64 to bytes to base64 to hex to base64 to ascii                |
 
 ## 05 Web
 |             Challenge             |                      Flag                      |                               Method                               |
@@ -97,11 +104,11 @@ Link: https://ctf.fweefwop.club/challenges
 | In Front Of Your Eyes (100)       | fwopCTF{Wolfy_The_Wolf}                        | [Link](https://web.fweefwop.club/in_front_of_ur_eyes.html) View page source |
 | Marq-weeeeeee! (100)              | fwopCTF{t3f0n00}                               | [Link](https://web.fweefwop.club/weee.html) Look for fwopCTF in page source |
 | No Inspector (100)                | fwopCTF{funky_0n_4_fr1day_n1ght}               | [Link](https://web.fweefwop.club/no_inspector.html) View JS script      |
-| Robot Invasion (100)              | fwopCTF{k1ller_r0bots_wilL_rUl3_th3_W0rld!!1}  | [Link](https://web.fweefwop.club/robot_invasion.html) Check robots.txt to find secret directory |
+| Robot Invasion (100)    | fwopCTF{k1ller_r0bots_wilL_rUl3_th3_W0rld!!1}  | [Link](https://web.fweefwop.club/robot_invasion.html) Check robots.txt to find secret directory |
 | Wacky CSS (100)                   | fwopCTF{Take_my_hand_to_your_fantasy}          | [Link](https://web.fweefwop.club/wacky_css.html) View CSS file     |
 | Complete me (200)                 | fwopCTF{where}                                 | SQL Select From Where                                              |
 | Cookies (250)                     |                                                |                                                                    |
-| 53Cr37 8r0W53r (400)              | fwopCTF{secret_browser_007}                    | [Link](https://web.fweefwop.club/cookie.php) Inspect -> More tools -> Network conditions -> User agent A3SECRET |
+| 53Cr37 8r0W53r (400)       | fwopCTF{secret_browser_007} | [Link](https://web.fweefwop.club/cookie.php) Inspect -> More tools -> Network conditions -> User agent A3SECRET |
 
 ## 06 Reverse
 |             Challenge             |                            Flag                            |                               Method                               |
