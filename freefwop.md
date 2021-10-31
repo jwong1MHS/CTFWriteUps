@@ -39,7 +39,7 @@ Link: https://ctf.fweefwop.club/challenges
 | NASM (1) (250)                    | fwopCTF{i_have_done_this_ex}   | [Online NASM Emulator](https://rextester.com/l/nasm_online_compiler)  |
 | Go through some gates (300)       | fwopCTF{1}                     | [Digital Logic](https://www.circuitbasics.com/what-is-digital-logic/) |
 | Assembly: Jump (400)              | fwopCTF{fwop}                  | Line 33 from 0x0? to 0x0d                                      |
-| Modular (4) (400)                 | fwopCTF{278505}                | `pow(31, pow(31, 2813771283, totient(384302), 384302)`         |
+| Modular (4) (400)                 | fwopCTF{278505}                | `pow(31, pow(31, 2813771283, totient(384302)), 384302)`         |
 
 ## 02 Forensics
 |              Challenge              |                Flag                |                                Method                                |
@@ -89,6 +89,7 @@ Link: https://ctf.fweefwop.club/challenges
 | ROT More (150)                    | fwopCTF{r0t47_t_is}                              | [Base85](https://gchq.github.io/CyberChef/#recipe=ROT47(47))       |
 | Samuel Morse (150)                | fwopCTF{MORSE_CODE_EASY}                         | [Morse Code](https://gchq.github.io/CyberChef/#recipe=From_Morse_Code('Space','Line%20feed')) |
 | Capture the flags (200)           | fwopCTF{eureka8891}                              | [International Code of Signals](https://en.wikipedia.org/wiki/International_maritime_signal_flags) |
+| Hebrew Texts (200)                | fwopCTF{eureka8891}                              | [International Code of Signals](https://en.wikipedia.org/wiki/International_maritime_signal_flags) |
 
 ## 05 Web
 |             Challenge             |                      Flag                      |                               Method                               |
