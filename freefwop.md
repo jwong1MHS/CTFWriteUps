@@ -29,7 +29,7 @@ Link: https://ctf.fweefwop.club/challenges
 | Shift (150)                       | fwopCTF{0x1200}                | [Assembly Emulator](https://carlosrafaelgn.com.br/Asm86)       |
 | What is that thing? (3) (150)     | fwopCTF{icmp}             | [Common Protocols](https://en.wikibooks.org/wiki/Network_Plus_Certification/Technologies/Common_Protocols) |
 | What's that thing? (0) (150)      | fwopCTF{compiler}              | Common Knowledge                                               |
-| What's that thing? (1) (150)      |                                |                                                                |
+| What's that thing? (1) (150)      | fwopCTF{daemon}                | Google                                                         |
 | What's that thing? (2) (150)      | fwopCTF{switch}                | [Types of Network Devices](https://www.educba.com/types-of-network-devices/) |
 | Modular (0) (200)                 | fwopCTF{4}                     | Wolframalpha/Mental math                                       |
 | Modular (1) (200)                 | fwopCTF{31}                    | [WolframAlpha](https://www.wolframalpha.com/input/?i=x+*+11+%3D+46+%28mod+59%29) |
@@ -39,7 +39,7 @@ Link: https://ctf.fweefwop.club/challenges
 | NASM (1) (250)                    | fwopCTF{i_have_done_this_ex}   | [Online NASM Emulator](https://rextester.com/l/nasm_online_compiler)  |
 | Go through some gates (300)       | fwopCTF{1}                     | [Digital Logic](https://www.circuitbasics.com/what-is-digital-logic/) |
 | Assembly: Jump (400)              | fwopCTF{fwop}                  | Line 33 from 0x0? to 0x0d                                      |
-| Modular (4) (400)                 | fwopCTF{278505}                | `pow(31, pow(31, 2813771283, totient(384302)), 384302)`         |
+| Modular (4) (400)                 | fwopCTF{278505}                | `pow(31, pow(31, 2813771283, totient(384302)), 384302)`        |
 
 ## 02 Forensics
 |              Challenge              |                Flag                |                                Method                                |
@@ -86,7 +86,8 @@ Link: https://ctf.fweefwop.club/challenges
 | FlipFwop (100)                    | fwopCTF{earth_fire_water_air}                    | [Flip](http://flipapicture.com/) flip horizontally                 |
 | Oink (100)                        | fwopCTF{welovepigs}                              | [Pigpen cipher](https://en.wikipedia.org/wiki/Pigpen_cipher)       |
 | Simple MD5 (100)                  | fwopCTF{7ca2197c58b026825c382e32621b1ce4}        | [MD5](https://gchq.github.io/CyberChef/#recipe=MD5())              |
-| Some Ciphers (100)                | fwopCTF{multi_cipher_shenanigans}           | [ROT13](https://rot13.com/), [Caesar cipher](https://www.dcode.fr/caesar-cipher) shift 3 |
+| Some Ciphers (100)                | fwopCTF{multi_cipher_shenanigans}           | [ROT13](https://rot13.com/), [Caesar cipher](https://www.dcode.fr/caesar-cipher) shift 3 | | Where's the message? (100)        | fwopCTF{WOWTHANKS}                               | Read the first letter of each work on each line                    |
+| WireBirds (100)                   | fwopCTF{BIRDSKNOW}                               | [Birds on a Wire Cipher](https://www.dcode.fr/birds-on-a-wire-cipher) |
 | More than 64 (125)                | fwopCTF{other_bases_would_work_too_not_just_64}  | [Cipher Identifier](https://www.dcode.fr/cipher-identifier), [Base85](https://gchq.github.io/CyberChef/#recipe=From_Base85('!-u')) |
 | Baby RSA (1) (150)                | fwopCTF{another_baby_rsa}                        | `python3 baby_rsa_1` |
 | ROT More (150)                    | fwopCTF{r0t47_t_is}                              | [ROT47](https://gchq.github.io/CyberChef/#recipe=ROT47(47))        |
@@ -95,9 +96,10 @@ Link: https://ctf.fweefwop.club/challenges
 | Baby RSA (0) (200)                | fwopCTF{13045502302425615144883543017919348302961367754511098998678884785553997741250139993469249405} | `python3 baby_rsa_0` |
 | Baby RSA (4) (200)                | fwopCTF{16832067193038570664627710532871887598013604871431045374089410572330773390687} | `python3 baby_rsa_4` |
 | Capture the flags (200)           | fwopCTF{eureka8891}               | [International Code of Signals](https://en.wikipedia.org/wiki/International_maritime_signal_flags) |
+| Did you take biology? (200)       | fwopCTF{DNARNAGENES}                             | [Codons Genetic Code](https://www.dcode.fr/codons-genetic-code) |
 | Hebrew Texts (200)               | fwopCTF{the_water_in_the_black_sea_is_too_salty_aUdhEUjIhO} | [Atbash Cipher](https://gchq.github.io/CyberChef/#recipe=Atbash_Cipher()) |
 | talking in the wind (200)         | fwopCTF{COMEFROMTHEWIND}                         | [Navajo Code Cipher](https://www.dcode.fr/navajo-code)             |
-| Touch and feel (200)              | fwopCTF{BRAILLE_FUN}                             | [Braille](https://en.wikipedia.org/wiki/English_Braille)           |
+| Touch and feel (200)              | fwopCTF{BRAILLE_FUN}                             | [Braille](https://www.dcode.fr/braille-alphabet)                   |
 | Elementary, My Dear Watson (300)  | fwopCTF{You_know_my_methods_Watson}              | [Dancing Men Cipher](https://www.dcode.fr/dancing-men-cipher)      |
 | This is just ridiculous! (300)    | fwopCTF{so_many_steps}                           | base64 to bytes to base64 to hex to base64 to ascii                |
 
@@ -105,14 +107,15 @@ Link: https://ctf.fweefwop.club/challenges
 |             Challenge             |                      Flag                      |                               Method                               |
 | --------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------ |
 | In Front Of Your Eyes (100)       | fwopCTF{Wolfy_The_Wolf}                        | [Link](https://web.fweefwop.club/in_front_of_ur_eyes.html) View page source |
-| Marq-weeeeeee! (100)              | fwopCTF{t3f0n00}                               | [Link](https://web.fweefwop.club/weee.html) Look for fwopCTF in page source |
+| Marq-weeeeeee! (100)              | fwopCTF{t3f0n00}                               | [Link](https://web.fweefwop.club/weee.html) `curl -sSL https://web.fweefwop.club/weee.html | grep fwopCTF{` |
 | No Inspector (100)                | fwopCTF{funky_0n_4_fr1day_n1ght}               | [Link](https://web.fweefwop.club/no_inspector.html) View JS script      |
-| Robot Invasion (100)    | fwopCTF{k1ller_r0bots_wilL_rUl3_th3_W0rld!!1}  | [Link](https://web.fweefwop.club/robot_invasion.html) Check robots.txt to find secret directory |
+| Robot Invasion (100)    | fwopCTF{k1ller_r0bots_wilL_rUl3_th3_W0rld!!1}  | [Link](https://web.fweefwop.club/robot_invasion.html) `curl https://web.fweefwop.club/robots.txt` `curl https://web.fweefwop.club/totally_evil_plan` |
 | Wacky CSS (100)                   | fwopCTF{Take_my_hand_to_your_fantasy}          | [Link](https://web.fweefwop.club/wacky_css.html) View CSS file     |
 | Complete me (200)                 | fwopCTF{where}                                 | SQL Select From Where                                              |
 | Cookies (250)                     | fwopCTF{Nom_nom_cookies}                       | Inspect element -> Application -> user changed to COOKIE MONSTER   |
-| client side login (300)           | fwopCTF{SFOVF5TENW}                            | `_bef____a_`                                                       |
-| 53Cr37 8r0W53r (400)       | fwopCTF{secret_browser_007} | [Link](https://web.fweefwop.club/cookie.php) Inspect -> More tools -> Network conditions -> User agent A3SECRET |
+| client side login (300)           | fwopCTF{SFOVF5TENW}                            | Type `_bef____a_` into login box or type `document.getElementById("text").innerHTML.substring(1080, 1100)` into browser console |
+| 53Cr37 8r0W53r (400)       | fwopCTF{secret_browser_007} | [Link](https://web.fweefwop.club/cookie.php) Inspect -> More tools -> Network conditions -> User agent A3SECRET or `curl https://web.fweefwop.club/agent.php -H 'user-agent: A3SECRET'` |
+| KevinSay (400)                    | fwopCTF{C0MM4ND1NDJ3C710N11}                   | [Link](http://web.fweefwop.club:8401/) `$(ls)` `$(cat flag193290.txt)` |
 | weird requests huh (400)          | fwopCTF{what_does_put_even_do??} | [Link](https://web.fweefwop.club/requests.php) `curl -X PUT https://web.fweefwop.club/requests.php` |
 | SQLI (500)                        | fwopCTF{Leaked_data_123}                       | [Link](http://web.fweefwop.club:8400/login.php) [SQL Injection](https://d00mfist.gitbooks.io/ctf/content/sql-injections.html) username and password: `'--` or `' OR '1'='1` |
 | SQLI But Filtered? (600)          | fwopCTF{f1lt3rs_not_good_3n0ugh}               | [Link](http://web.fweefwop.club:8402/login.php) (can't have injection start with `'`) username and password: `-'` |
@@ -136,6 +139,8 @@ Link: https://ctf.fweefwop.club/challenges
 |             Challenge             |                Flag                |                               Method                               |
 | --------------------------------- | ---------------------------------- | ------------------------------------------------------------------ |
 | A street named what? (100)        | fwopCTF{Pruneridge}                | 3896 Pruneridge Ave                                                |
-| Where is everybody? (100)         |                                    |                                                                    |
-| Kevin Gaming (200)                |                                    |                                                                    |
+| Where is everybody? (100)         | fwopCTF{Valencia} | https://www.ladbible.com/community/viral-time-traveller-from-2027-visits-mcdonalds-after-human-extinction-20210514 |
+| Kevin Gaming (200)                | fwopCTF{ps2}                       | [Twitter](https://twitter.com/TheCoolerKevin_) Follow him on twitter to get birth year |
+| Kevin Took The Flag (250)         | fwopCTF{wayback_machine_doesn't_let_me_play_club_penguin_again_D:} | [Twitter](https://twitter.com/TheCoolerKevin_) Wayback Machine |
 | Location Location Location (200)  | fwopCTF{Kinshasa}                  | (-4.396,15.317)                                                    |
+| Kevin's secret (275)              | fwopCTF{h1dd3n_1n_7h3_h1570ry_28934} | Go to the forked repo, see last commit edit                      |
