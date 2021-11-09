@@ -1,0 +1,11 @@
+Flags:
+GodIHopeYouScriptedThis
+999ProblemsButAReloadAint1
+YourSecondKey
+YOURFIRSTKEY
+HackThePlanet
+WelcomeToTheMatrix
+
+
+Super secret flags:
+AllXMLIsGarbageXML
