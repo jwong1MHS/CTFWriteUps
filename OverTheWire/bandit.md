@@ -16,6 +16,8 @@
 - [Bandit Level 11 → Level 12](./bandit.md#bandit-level-11--level-12)
 - [Bandit Level 12 → Level 13](./bandit.md#bandit-level-12--level-13)
 
+***
+
 ## Bandit Level 0
 
 ### Description
@@ -31,7 +33,7 @@ Open up a Linux termninal and run `ssh bandit0@bandit.labs.overthewire.org -p 22
 Login: `ssh bandit0@bandit.labs.overthewire.org -p 2220` \
 Password: `bandit0`
 
-
+***
 
 ## Bandit Level 0 → Level 1
 
@@ -53,7 +55,7 @@ While logged into bandit0, run `ls` to list all the files in the current directo
 Login: `ssh bandit1@bandit.labs.overthewire.org -p 2220` \
 Password: `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
 
-
+***
 
 ## Bandit Level 1 → Level 2
 
@@ -73,7 +75,7 @@ Run `ls`, and there should be a file called **-** in the system. Trying to run `
 Login: `ssh bandit2@bandit.labs.overthewire.org -p 2220` \
 Password: `CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9`
 
-
+***
 
 ## Bandit Level 2 → Level 3
 
@@ -102,10 +104,10 @@ P.S. Never name a file with spaces in it, generally files are named as **spacesi
     bandit2@bandit:~$ cat "spaces in this filename" 
     UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 
-Login: `ssh bandit3@bandit.labs.overthewire.org -p 2220` \
+Login: `ssh bandit3@bandit.labs.overthewire.org -p 2220` <br>
 Password: `UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK`
 
-
+***
 
 ## Bandit Level 3 → Level 4
 
@@ -133,8 +135,7 @@ Note: `cd` is short of change directory
 Login: `ssh bandit4@bandit.labs.overthewire.org -p 2220` \
 Password: `pIwrPrtPN36QITSp3EQaw936yaFoFgAB`
 
-
-
+***
 
 ## Bandit Level 4 → Level 5
 
@@ -179,7 +180,7 @@ Only **-file07** is an ASCII text file type which is human-readable, so a simple
 Login: `ssh bandit5@bandit.labs.overthewire.org -p 2220` \
 Password: `koReBOKuIDDepwhWk7jZC0RTdopnAYKh`
 
-
+***
 
 ## Bandit Level 5 → Level 6
 
@@ -211,7 +212,7 @@ We see that the **./maybehere07/.file2** file is the only one that matches the s
 Login: `ssh bandit6@bandit.labs.overthewire.org -p 2220` \
 Password: `DXjZPULLxYr17uwoI01bNLQbtFemEgo7`
 
-
+***
 
 ## Bandit Level 6 → Level 7
 
@@ -240,7 +241,7 @@ We see that the **/var/lib/dpkg/info/bandit7.password** file is the only one tha
 Login: `ssh bandit7@bandit.labs.overthewire.org -p 2220` \
 Password: `HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs`
 
-
+***
 
 ## Bandit Level 7 → Level 8
 
@@ -258,7 +259,7 @@ A quick `ls` shows that the file **data.txt** is in the current directory. Howev
 Login: `ssh bandit8@bandit.labs.overthewire.org -p 2220` \
 Password: `cvX2JJa4CFALtqS87jk27qwqGhBM9plV`
 
-
+***
 
 ## Bandit Level 8 → Level 9
 
@@ -277,7 +278,7 @@ A quick `cat` on the **data.txt** file shows a lot of text, and the goal is to g
 Login: `ssh bandit9@bandit.labs.overthewire.org -p 2220` \
 Password: `UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR`
 
-
+***
 
 ## Bandit Level 9 → Level 10
 
@@ -299,7 +300,7 @@ Running `cat` on **data.txt** will show a lot of gibberish, which most likely me
 Login: `ssh bandit10@bandit.labs.overthewire.org -p 2220` \
 Password: `truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk`
 
-
+***
 
 ## Bandit Level 10 → Level 11
 
@@ -320,7 +321,7 @@ Running `cat` on **data.txt** will show some text, but it is base64 encoded beca
 Login: `ssh bandit11@bandit.labs.overthewire.org -p 2220` \
 Password: `IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR`
 
-
+***
 
 ## Bandit Level 11 → Level 12
 
@@ -341,7 +342,7 @@ Running `cat` on **data.txt** will show letters but they've all been shifted.  R
 Login: `ssh bandit12@bandit.labs.overthewire.org -p 2220` \
 Password: `5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu`
 
-
+***
 
 ## Bandit Level 12 → Level 13
 
