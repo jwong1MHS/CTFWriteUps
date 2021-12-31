@@ -80,7 +80,8 @@ Password: `CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9`
 ## Bandit Level 2 → Level 3
 
 ### Description
-The password for the next level is stored in a file called **spaces in this filename** located in the home directory
+The password for the next level is stored in a file called **spaces in this filename** located in \
+the home directory
 
 Link: https://overthewire.org/wargames/bandit/bandit3.html
 
