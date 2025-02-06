@@ -773,11 +773,26 @@ There are 2 files in the homedirectory: **passwords.old and passwords.new**. The
 ### Solution
 
 ```bash
-bandit17@bandit:~$ diff passwords.new passwords.old 
-42c42
-< x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
----
-> ktfgBvpMzWKR5ENj26IbLGSblgUG9CzB
+bandit17@bandit:~$ diff -c passwords.new passwords.old 
+*** passwords.new       2024-09-19 07:08:22.608693607 +0000
+--- passwords.old       2024-09-19 07:08:22.603693566 +0000
+***************
+*** 39,45 ****
+  Udq1Zw8oOdLjcLZSoWFb3XVsLVr2J7e7
+  fwJjyJfLsqI7eA3q1pmW0WjptEJPyjVj
+  9jbIrrT9OlPADZDBfF1UOoz4lhboOnsT
+! 
+  dX464MV2LHPWYN9RDa7AnVBqsxjl1zui
+  GOTGHQIZKu2qwhUTibu5PQaMEMWvoUDR
+  t7szZtdGClutCs1g4uWKN5I1oV3cnA0c
+--- 39,45 ----
+  Udq1Zw8oOdLjcLZSoWFb3XVsLVr2J7e7
+  fwJjyJfLsqI7eA3q1pmW0WjptEJPyjVj
+  9jbIrrT9OlPADZDBfF1UOoz4lhboOnsT
+! ktfgBvpMzWKR5ENj26IbLGSblgUG9CzB
+  dX464MV2LHPWYN9RDa7AnVBqsxjl1zui
+  GOTGHQIZKu2qwhUTibu5PQaMEMWvoUDR
+  t7szZtdGClutCs1g4uWKN5I1oV3cnA0c
 ```
 
 ## Bandit Level 18 → Level 19
@@ -798,11 +813,16 @@ To gain access to the next level, you should use the setuid binary in the homedi
 
 ### Solution
 
+A set-UID (SUID) will allow a user to execute a file with the permissions of the file owner, where the `x` permission is replaced with `s`.
+
 We can use the script to execute commands as the `bandit20` user.
 
 ```bash
+bandit19@bandit:~$ ls -l
+total 16
+-rwsr-x--- 1 bandit20 bandit19 14880 Sep 19 07:08 bandit20-do
 bandit19@bandit:~$ ./bandit20-do id
 uid=11019(bandit19) gid=11019(bandit19) euid=11020(bandit20) groups=11019(bandit19)
 bandit19@bandit:~$ ./bandit20-do cat /etc/bandit_pass/bandit20
-0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+
 ```
